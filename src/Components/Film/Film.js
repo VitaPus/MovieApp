@@ -111,7 +111,6 @@ export default class Film extends Component {
 Film.defaultProps = {
   filmData: [],
   genres: [],
-  guest_id: 1,
   ratedFilms: [],
   search: true,
   addRating: () => {},
