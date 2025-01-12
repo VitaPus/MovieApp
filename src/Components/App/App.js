@@ -7,6 +7,7 @@ import NetWork from "../NetWork/NetWork";
 import PaginationFilms from "../../AntdComponents/Pagination";
 import { FilmDataProvider } from "../../FilmsService/Film-context";
 import RatedButtons from "../RatedButtons/RatedButtons";
+import "./App.css"
 
 export default class App extends Component {
   FilmsService = new FilmsService();
