@@ -173,6 +173,9 @@
   .ant-card.ant-card-bordered.ant-card-hoverable.css-dev-only-do-not-override-7ny38l {
     height: 279px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
   }
 
 }
