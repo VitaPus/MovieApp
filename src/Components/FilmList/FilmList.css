@@ -1,5 +1,9 @@
 @media (min-width: 421px) {
 
+  .ant-card.ant-card-bordered.ant-card-hoverable.css-dev-only-do-not-override-7ny38l {
+    display: flex;
+    
+  }
 
   .films {
     display: grid;
@@ -9,6 +13,10 @@
     margin-top: 20px;
     margin-bottom: 50px;
     justify-content: center;
+  }
+
+  .ant-card-cover {
+    width: 300px;
   }
 
   body {
@@ -106,6 +114,10 @@
     justify-content: center;
     margin: 0;
     margin-top: 10px;
+  }
+
+  img.poster {
+    min-height: 240px;
   }
 }
 

@@ -1,4 +1,4 @@
-@media (min-width: 421) {
+@media (min-width: 421px) {
     .ant-card-cover {
         width: 300px;
     }
@@ -11,7 +11,7 @@
         width: 320px;
     }
 
-    .ant-card.ant-card-bordered.ant-card-hoverable.css-dev-only-do-not-override-1wazalj {
+    .ant-card.ant-card-bordered.ant-card-hoverable {
         display: flex;
     }
 
@@ -21,10 +21,15 @@
 }
 
 @media (max-width: 421px) {
+    .ant-card.ant-card-bordered.ant-card-hoverable.css-dev-only-do-not-override-7ny38l {
+        height: 279px;
+        margin-bottom: 10px;
+    }
+
     .description {
         position: relative;
-        top: 20px;
-        left: -80px;
+        top: -85px;
+        left: -20px;
         width: 367px;
         height: 92px;
         margin-left: 6px;
@@ -36,7 +41,9 @@
 
     .ant-card-meta {
         position: relative;
-        bottom: 18px;
+        bottom: 120px;
+        left: 55px;
+        width: 290px;
     }
 
     img.poster {
@@ -44,9 +51,15 @@
         border-radius: 0;
     }
 
-    ul.ant-rate.css-dev-only-do-not-override-1wazalj {
+    .genre {
         position: relative;
-        top: 25px;
-        left: 45px;
+        top: -105px;
+        left: 60px;
+    }
+
+    ul.ant-rate {
+        position: relative;
+        top: -55px;
+        left: 85px;
     }
 }
