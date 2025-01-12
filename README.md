@@ -1,1 +1,1 @@
-# [Ссылка на хостинг](https://movie-app-andrey98rusanov.vercel.app/)
+# [Ссылка на хостинг](https://vercel.com/vitolds-projects/movie-app)
