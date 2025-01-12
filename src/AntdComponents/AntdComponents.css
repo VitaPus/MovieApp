@@ -1,0 +1,13 @@
+.loader {
+    margin: 100px;
+    display: grid;
+}
+
+.Pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color: inherit;
+    margin: auto;
+}

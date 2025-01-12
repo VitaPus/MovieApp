@@ -1,0 +1,47 @@
+.ant-card-cover {
+    width: 300px;
+}
+
+.description {
+    height: 280px;
+}
+
+.ant-card-body {
+    width: 320px;
+}
+
+.ant-card.ant-card-bordered.ant-card-hoverable.css-dev-only-do-not-override-1wazalj {
+    display: flex;
+}
+
+.ant-card-meta-title {
+    width: 250px;
+}
+
+@media (max-width: 421px) {
+    .description {
+        position: relative;
+        top: 20px;
+        left: -80px;
+        width: 367px;
+        height: 92px;
+        margin-left: 6px;
+    }
+
+    .ant-card-cover {
+        width: 60px;
+    }
+    .ant-card-meta {
+        position: relative;
+        bottom: 18px;
+    }
+    img.poster {
+        margin: 10px;
+        border-radius: 0;
+    }
+    ul.ant-rate.css-dev-only-do-not-override-1wazalj {
+        position: relative;
+        top: 25px;
+        left: 45px;
+    }
+}

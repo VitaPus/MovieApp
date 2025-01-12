@@ -1,0 +1,160 @@
+@media (min-width: 421px) {
+
+
+  .films {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    grid-column-gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  body {
+    /* background-color: whitesmoke; */
+    background-color: #F8F9FA;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .rating {
+    border: solid black 3px;
+    width: 37px;
+    height: 37px;
+    border-radius: 80px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+
+  .low {
+    border: solid #E90000 3px;
+  }
+
+  .middle {
+    border: solid #E97E00 3px;
+  }
+
+  .high {
+    border: solid #E9D100 3px;
+  }
+
+  .very-high {
+    border: solid #66E900 3px;
+  }
+
+  .film {
+    display: flex;
+    border-radius: 5px;
+    width: 600px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .2);
+    position: relative;
+  }
+
+  .poster {
+    min-height: 450px;
+    width: 300px;
+    background-color: #F8F9FA;
+  }
+
+  .film_info {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .title {
+    width: 240px;
+  }
+
+  .genre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .search-form {
+    margin: auto;
+    width: 86%;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  input {
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .offlineAlert {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .foundFilms {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 421px) {
+  .films {
+    grid-template-columns: auto auto;
+    gap: 30px;
+    grid-column-gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  .rating {
+    border: solid black 3px;
+    width: 37px;
+    height: 37px;
+    border-radius: 80px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+
+  .low {
+    border: solid #E90000 3px;
+  }
+
+  .middle {
+    border: solid #E97E00 3px;
+  }
+
+  .high {
+    border: solid #E9D100 3px;
+  }
+
+  .very-high {
+    border: solid #66E900 3px;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ant-card.ant-card-bordered.ant-card-hoverable.css-dev-only-do-not-override-1wazalj {
+    margin-bottom: 10px;
+  }
+}
